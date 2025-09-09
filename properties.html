@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Properties</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <div class="bg-light">
+  <div class="container">
+    <div class="row align-items-center py-2 text-secondary">
+      <div class="col-md-4 text-center text-md-start">
+        <span><img src="./p-images/email-icon.png" style="width:18px" alt=""></span>
+        <span>info@company.com</span>
+      </div>
+      <div class="col-md-4 text-center">
+        <i class="fa-solid fa-map text-danger"></i>
+          <span>Sunny Isles Beach, FL 33160</span>
+      </div>
+      <div class="col-md-4 text-center text-md-end">
+        <i class="fa-brands fa-facebook me-3"></i>
+          <i class="fa-brands fa-instagram me-3"></i>
+          <i class="fa-brands fa-linkedin me-3"></i>
+          <i class="fa-brands fa-square-twitter me-3"></i>
+      </div>
+    </div>
+  </div>
+</div>
+<!--nav-->
+<nav class="navbar navbar-expand-lg bg-white p-3">
+  <div class="container">
+    <!-- Brand -->
+    <a class="navbar-brand fw-bold ps-5" href="#">VILLA</a>
+
+    <!-- Toggler -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Nav Items -->
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto me-3 gap-4">
+        <li class="nav-item"><a class="nav-link" href="./home.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="./Properties.html">Properties</a></li>
+        <li class="nav-item"><a class="nav-link" href="./PropertyDetails.html">Property Details</a></li>
+        <li class="nav-item"><a class="nav-link" href="./contactus.html">Contact Us</a></li>
+        <li class="nav-item">
+          <a href="#" class="btn btn-dark rounded-pill px-3"><i class="fa-solid fa-calendar text-danger"></i>Schedule a visit</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  <!--navbar-->
+  
+  <!--header-->
+<header>
+  <div class="position-relative">
+    <img src="./p-images/page-heading-bg.jpg" class="w-100" style="max-height: 300px; object-fit: cover;">
+    
+    <div class="position-absolute top-50 start-50 translate-middle text-center">
+      <p class="text-dark fw-semibold m-0 px-3 py-2 border border-dark bg-white d-inline-block">
+        Home / Properties
+      </p>
+      <h2 class="text-white fs-1 mt-3 mb-0 text-uppercase fw-bold">
+        Properties
+      </h2>
+    </div>
+  </div>
+</header>
+  <!--header-->
+
+  <!--Properties-->
+    <div class="container">
+        <!--row1-->
+        <div class="row justify-content-center my-5">
+            <div class="d-flex justify-content-center gap-3 flex-wrap my-4">
+                <button class="btn btn-md btn-danger px-3">Show all</button>
+                <button class="btn btn-md btn-dark px-4">Apartment</button>
+                <button class="btn btn-md btn-dark px-4">Villa House</button>
+                <button class="btn btn-md btn-dark px-4">Penthouse</button>
+            </div>
+        </div>
+        <!--row2-->
+        <div class="row g-0 gy-3 justify-content-center">
+    <!-- Property Card 1 -->
+    <div class="col-sm-6 col-md-4">
+        <div class="card bg-light" style="max-width:350px; margin:auto;">
+            <img src="./p-images/property-01.jpg" class="card-img-top p-3" alt="...">
+            <div class="card-body d-flex flex-column">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                    <button class="badge text-light bg-success">Luxury Villa</button>
+                    <span class="fw-bold text-danger">$2.264.000</span>
+                </div>
+                <h6 class="fw-bold mb-3">18 New Street Miami, OR 97219</h6>
+                <div class="row text-secondary small mb-2">
+                    <div class="col-4">Bedrooms: <span class="text-dark fw-bold">8</span></div>
+                    <div class="col">Bathrooms: <span class="text-dark fw-bold">8</span></div>
+                </div>
+                <div class="row text-muted small mb-3">
+                    <div class="col-4">Area: <span class="text-dark fw-bold">545m²</span></div>
+                    <div class="col-3">Floor: <span class="text-dark fw-bold">3</span></div>
+                    <div class="col-5">Parking: <span class="text-dark fw-bold">6 spots</span></div>
+                </div>
+                <hr class="opacity-25">
+                <div class="mt-auto text-center">
+                    <a href="#" class="btn btn-sm btn-dark rounded-pill">schedule a visit</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!--property2-->
+    <div class="col-sm-6 col-md-4">
+        <div class="card bg-light" style="max-width:350px; margin:auto;">
+            <img src="./p-images/property-02.jpg" class="card-img-top p-3" alt="...">
+            <div class="card-body d-flex flex-column">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                    <button class="badge text-light bg-success">Luxury Villa</button>
+                    <span class="fw-bold text-danger">$1.180.000</span>
+                </div>
+                <h6 class="fw-bold mb-3">54 New Street Florida, OR 27001</h6>
+                <div class="row text-secondary small mb-2">
+                    <div class="col-4">Bedrooms: <span class="text-dark fw-bold">6</span></div>
+                    <div class="col">Bathrooms: <span class="text-dark fw-bold">5</span></div>
+                </div>
+                <div class="row text-muted small mb-3">
+                    <div class="col-4">Area: <span class="text-dark fw-bold">450m²</span></div>
+                    <div class="col-3">Floor: <span class="text-dark fw-bold">3</span></div>
+                    <div class="col-5">Parking: <span class="text-dark fw-bold">8 spots</span></div>
+                </div>
+                <hr class="opacity-25">
+                <div class="mt-auto text-center">
+                    <a href="#" class="btn btn-sm btn-dark rounded-pill">schedule a visit</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Property-3-->
+
+    <div class="col-sm-6 col-md-4">
+        <div class="card bg-light" style="max-width:350px; margin:auto;">
+            <img src="./p-images/property-03.jpg" class="card-img-top p-3" alt="...">
+            <div class="card-body d-flex flex-column">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                    <button class="badge text-light bg-success">Luxury Villa</button>
+                    <span class="fw-bold text-danger">$1.460.000</span>
+                </div>
+                <h6 class="fw-bold mb-3">26 Mid Street Portland, OR 36540</h6>
+                <div class="row text-secondary small mb-2">
+                    <div class="col-4">Bedrooms: <span class="text-dark fw-bold">5</span></div>
+                    <div class="col">Bathrooms: <span class="text-dark fw-bold">4</span></div>
+                </div>
+                <div class="row text-muted small mb-3">
+                    <div class="col-4">Area: <span class="text-dark fw-bold">225m²</span></div>
+                    <div class="col-3">Floor: <span class="text-dark fw-bold">3</span></div>
+                    <div class="col-5">Parking: <span class="text-dark fw-bold">10 spots</span></div>
+                </div>
+                <hr class="opacity-25">
+                <div class="mt-auto text-center">
+                    <a href="#" class="btn btn-sm btn-dark rounded-pill">schedule a visit</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Property-4-->
+
+    <div class="col-sm-6 col-md-4">
+        <div class="card bg-light" style="max-width:350px; margin:auto;">
+            <img src="./p-images/property-04.jpg" class="card-img-top p-3" alt="...">
+            <div class="card-body d-flex flex-column">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                    <button class="badge text-light bg-success">Apartment</button>
+                    <span class="fw-bold text-danger">$584.000</span>
+                </div>
+                <h6 class="fw-bold mb-3">12 Hope Street Portland, OR 12650</h6>
+                <div class="row text-secondary small mb-2">
+                    <div class="col-4">Bedrooms: <span class="text-dark fw-bold">4</span></div>
+                    <div class="col">Bathrooms: <span class="text-dark fw-bold">3</span></div>
+                </div>
+                <div class="row text-muted small mb-3">
+                    <div class="col-4">Area: <span class="text-dark fw-bold">125m²</span></div>
+                    <div class="col-3">Floor: <span class="text-dark fw-bold">25th</span></div>
+                    <div class="col-5">Parking: <span class="text-dark fw-bold">2 spots</span></div>
+                </div>
+                <hr class="opacity-25">
+                <div class="mt-auto text-center">
+                    <a href="#" class="btn btn-sm btn-dark rounded-pill">schedule a visit</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Property-5 -->
+    <div class="col-sm-6 col-md-4">
+        <div class="card bg-light" style="max-width:350px; margin:auto;">
+            <img src="./p-images/property-05.jpg" class="card-img-top p-3" alt="...">
+            <div class="card-body d-flex flex-column">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                    <button class="badge text-light bg-success">Penthouse</button>
+                    <span class="fw-bold text-danger">$925.600</span>
+                </div>
+                <h6 class="fw-bold mb-3">34 Hope Street Portland, OR 42680</h6>
+                <div class="row text-secondary small mb-2">
+                    <div class="col-4">Bedrooms: <span class="text-dark fw-bold">4</span></div>
+                    <div class="col">Bathrooms: <span class="text-dark fw-bold">4</span></div>
+                </div>
+                <div class="row text-muted small mb-3">
+                    <div class="col-4">Area: <span class="text-dark fw-bold">180m²</span></div>
+                    <div class="col-3">Floor: <span class="text-dark fw-bold">38th</span></div>
+                    <div class="col-5">Parking: <span class="text-dark fw-bold">2 cars</span></div>
+                </div>
+                <hr class="opacity-25">
+                <div class="mt-auto text-center">
+                    <a href="#" class="btn btn-sm btn-dark rounded-pill">schedule a visit</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--property-6-->
+
+    <div class="col-sm-6 col-md-4">
+        <div class="card bg-light" style="max-width:350px; margin:auto;">
+            <img src="./p-images/property-06.jpg" class="card-img-top p-3" alt="...">
+            <div class="card-body d-flex flex-column">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                    <button class="badge text-light bg-success">Modern Condo</button>
+                    <span class="fw-bold text-danger">$450.000</span>
+                </div>
+                <h6 class="fw-bold mb-3">22 Hope Street Portland, OR 16540</h6>
+                <div class="row text-secondary small mb-2">
+                    <div class="col-4">Bedrooms: <span class="text-dark fw-bold">3</span></div>
+                    <div class="col">Bathrooms: <span class="text-dark fw-bold">2</span></div>
+                </div>
+                <div class="row text-muted small mb-3">
+                    <div class="col-4">Area: <span class="text-dark fw-bold">165m²</span></div>
+                    <div class="col-3">Floor: <span class="text-dark fw-bold">26th</span></div>
+                    <div class="col-5">Parking: <span class="text-dark fw-bold">3 cars</span></div>
+                </div>
+                <hr class="opacity-25">
+                <div class="mt-auto text-center">
+                    <a href="#" class="btn btn-sm btn-dark rounded-pill">schedule a visit</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--properety-7-->
+
+    <div class="col-sm-6 col-md-4">
+        <div class="card bg-light" style="max-width:350px; margin:auto;">
+            <img src="./p-images/property-01.jpg" class="card-img-top p-3" alt="...">
+            <div class="card-body d-flex flex-column">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                    <button class="badge text-light bg-success">Luxury Villa</button>
+                    <span class="fw-bold text-danger">$980.000</span>
+                </div>
+                <h6 class="fw-bold mb-3">14 Mid Street Miami, OR 36450</h6>
+                <div class="row text-secondary small mb-2">
+                    <div class="col-4">Bedrooms: <span class="text-dark fw-bold">8</span></div>
+                    <div class="col">Bathrooms: <span class="text-dark fw-bold">8</span></div>
+                </div>
+                <div class="row text-muted small mb-3">
+                    <div class="col-4">Area: <span class="text-dark fw-bold">550m²</span></div>
+                    <div class="col-3">Floor: <span class="text-dark fw-bold">3</span></div>
+                    <div class="col-5">Parking: <span class="text-dark fw-bold">12 spots</span></div>
+                </div>
+                <hr class="opacity-25">
+                <div class="mt-auto text-center">
+                    <a href="#" class="btn btn-sm btn-dark rounded-pill">schedule a visit</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Property-8-->
+
+   <div class="col-sm-6 col-md-4">
+        <div class="card bg-light" style="max-width:350px; margin:auto;">
+            <img src="./p-images/property-02.jpg" class="card-img-top p-3" alt="...">
+            <div class="card-body d-flex flex-column">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                    <button class="badge text-light bg-success">Luxury Villa</button>
+                    <span class="fw-bold text-danger">$1520.000</span>
+                </div>
+                <h6 class="fw-bold mb-3">26 Old Street Miami, OR 12870</h6>
+                <div class="row text-secondary small mb-2">
+                    <div class="col-4">Bedrooms: <span class="text-dark fw-bold">12</span></div>
+                    <div class="col">Bathrooms: <span class="text-dark fw-bold">15</span></div>
+                </div>
+                <div class="row text-muted small mb-3">
+                    <div class="col-4">Area: <span class="text-dark fw-bold">300m²</span></div>
+                    <div class="col-3">Floor: <span class="text-dark fw-bold">3</span></div>
+                    <div class="col-5">Parking: <span class="text-dark fw-bold">14 spots</span></div>
+                </div>
+                <hr class="opacity-25">
+                <div class="mt-auto text-center">
+                    <a href="#" class="btn btn-sm btn-dark rounded-pill">schedule a visit</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--property-9-->
+
+</body>
+</html>

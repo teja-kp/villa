@@ -1,0 +1,565 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="bg-light">
+  <div class="container">
+    <div class="row align-items-center py-2 text-secondary">
+      <div class="col-md-4 text-center text-md-start">
+        <span><img src="./p-images/email-icon.png" style="width:18px" alt=""></span>
+        <span>info@company.com</span>
+      </div>
+      <div class="col-md-4 text-center">
+        <i class="fa-solid fa-map text-danger"></i>
+          <span>Sunny Isles Beach, FL 33160</span>
+      </div>
+      <div class="col-md-4 text-center text-md-end">
+        <i class="fa-brands fa-facebook me-3"></i>
+          <i class="fa-brands fa-instagram me-3"></i>
+          <i class="fa-brands fa-linkedin me-3"></i>
+          <i class="fa-brands fa-square-twitter me-3"></i>
+      </div>
+    </div>
+  </div>
+</div>
+<!--nav-->
+<nav class="navbar navbar-expand-lg bg-white p-3">
+  <div class="container">
+    <!-- Brand -->
+    <a class="navbar-brand fw-bold ps-5" href="#">VILLA</a>
+
+    <!-- Toggler -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Nav Items -->
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto me-3 gap-4">
+        <li class="nav-item"><a class="nav-link" href="./home.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="./Properties.html">Properties</a></li>
+        <li class="nav-item"><a class="nav-link" href="./PropertyDetails.html">Property Details</a></li>
+        <li class="nav-item"><a class="nav-link" href="./contactus.html">Contact Us</a></li>
+        <li class="nav-item">
+          <a href="#" class="btn btn-dark rounded-pill px-3"><i class="fa-solid fa-calendar text-danger"></i>Schedule a visit</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  <!--navbar-->
+
+<!--header-->
+<header class="position-relative">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 position-relative">
+        <img class="img-fluid w-100" src="./p-images/banner-01.jpg" alt="Banner">
+
+        <!-- Text block on top of image -->
+        <div class="position-absolute" style="top: 25%; left: 20%;">
+          <p class="fw-semibold m-0 px-3 py-2 border border-dark bg-white d-inline-block">
+            <span>Toronto, </span><span class="text-danger">Canada</span>
+          </p>
+          <h2 class="text-white fs-1 mt-3 mb-0 text-uppercase fw-bold">
+            Hurry! <br> Get the best <br> Villa for you
+          </h2>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+
+<!--Apartment Details-->
+
+  <div class="container py-5">
+  <div class="row align-items-stretch"> <!-- Makes all columns equal height -->
+    
+    <!-- Column 1 -->
+    <div class="col-12 col-md-4 text-center d-flex">
+      <img src="./p-images/featured.jpg" class="img-fluid" style="max-width:350px; margin-top: auto; margin-bottom: auto;">
+    </div>
+
+    <!-- Column 2 -->
+    <div class="col-12 col-md-4 d-flex flex-column">
+      <p class="fs-6 fw-bold text-warning mb-2">| Featured</p>
+      <h1 class="fw-bold mb-4">Best Apartment & Sea View</h1>
+
+      <div class="accordion" id="accordionExample">
+        <!-- Accordion Item 1 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
+              Best useful links?
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quos ad nihil ea unde explicabo illum quisquam obcaecati sapiente eaque!.
+            </div>
+          </div>
+        </div>
+
+        <!-- Accordion Item 2 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
+              How does this work?
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus deserunt nihil vel.
+            </div>
+          </div>
+        </div>
+
+        <!-- Accordion Item 3 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree">
+              Why is Villa Agency the Best?
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam fuga autem vitae.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Column 3 -->
+<!-- Column 3 -->
+<div class="col-12 col-md-4 d-flex justify-content-center">
+  <div class="card p-4 flex-fill" style="max-width: 400px;">
+    <div class="d-flex flex-column justify-content-between pt-3 h-100 gap-4">
+      
+    <div class="d-flex align-items-center justify-content-center">
+    <img src="./p-images/info-icon-01.png" alt="" class="me-3" style="width: 40px;">
+    <div>
+      <span class="d-block fw-bold">250 m²</span>
+      <span>Total Flat Space</span>
+    </div>  
+    </div>
+      <hr class="my-2 w-75 mx-auto">        
+    <div class="d-flex align-items-center justify-content-center">
+    <img src="./p-images/info-icon-02.png" alt="" class="me-3" style="width: 40px;">
+    <div>
+    <span class="d-block fw-bold">Contract</span>
+    <span>Contract Ready</span>
+    </div>  
+    </div>
+   <hr class="my-2 w-75 mx-auto"> 
+      
+  <div class="d-flex align-items-center justify-content-center">
+  <img src="./p-images/info-icon-03.png" alt="" class="me-3" style="width: 40px;">
+  <div>
+    <span class="d-block fw-bold">Payment</span>
+    <span>Payment Process</span>
+  </div>  
+  </div>
+   <hr class="my-2 w-75 mx-auto"> 
+      
+   <div class="d-flex align-items-center justify-content-center">
+  <img src="./p-images/info-icon-04.png" alt="" class="me-3" style="width: 40px;">
+  <div>
+    <span class="d-block fw-bold">Safety</span>
+    <span>24/7 Under Control</span>
+  </div>  
+  </div>  
+    </div>
+  </div>
+</div>
+</div>
+</div>
+
+<!--image with playbutton-->
+<div class="container position-relative video-section">
+  <!-- Background Image -->
+  <div class="row">
+    <div class="col">
+      <img class="img-fluid w-100" src="./p-images/video-bg.jpg" alt="Background">
+    </div>
+  </div>
+
+  <!-- TEXT OVERLAY -->
+  <div class="position-absolute start-50 translate-middle-x text-center text-white video-copy">
+    <p class="text-danger fw-semibold mb-2 small">| Video View</p>
+    <h2 class="display-6 fw-bold lh-sm mb-1">Get Closer View &</h2>
+    <h2 class="display-6 fw-bold lh-sm">Different Feeling</h2>
+  </div>
+
+  <!-- Foreground Frame + Play Button -->
+  <div class="position-absolute start-50 translate-middle-x video-frame">
+    <div class="position-relative frame-wrap">
+      <img class="img-fluid rounded-3 shadow" src="./p-images/video-frame.jpg" alt="Video Frame">
+      <!-- Centered Play Button -->
+      <button class="play-btn position-absolute top-50 start-50 translate-middle" type="button" aria-label="Play video">
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+          <path d="M8 5v14l11-7z"></path>
+        </svg>
+      </button>
+    </div>
+  </div>
+</div>
+
+<!-- Badges Section -->
+<section class="badges-section">
+  <div class="container text-center">
+    <div class="row g-4">
+      
+      <div class="col-md-4">
+        <div class="custom-badge mx-auto position-relative">
+          <div class="number">34</div>
+          <div class="text">
+            <strong>Buildings</strong><br>
+            Finished Now
+          </div>
+          <div class="circle"></div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="custom-badge mx-auto position-relative">
+          <div class="number">12</div>
+          <div class="text">
+            <strong>Years</strong><br>
+            Experience
+          </div>
+          <div class="circle"></div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="custom-badge mx-auto position-relative">
+          <div class="number">24</div>
+          <div class="text">
+            <strong>Awwards</strong><br>
+            Won 2023
+          </div>
+          <div class="circle"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--badges-->
+
+<!--Best deal section-->
+<div class="container-lg bg-light py-5 my-5">
+  <!--row1-->
+  <div class="row mb-5 align-items-center">
+    <div class="col-md-8 col-12 mb-3 mb-md-0">
+        <p class="fw-bold text-danger text-uppercase small">|Best deal</p>
+        <h3 class="fw-bold">Find Your Best Deal<br>Right Now!</h3>
+    </div>
+    <div class="col-md-4 col-12 d-flex flex-wrap gap-2 justify-content-md-end">
+        <button type="button" class="btn btn-danger btn-lg">Apartment</button>
+        <button type="button" class="btn btn-dark btn-lg">villahouse</button>
+        <button type="button" class="btn btn-dark btn-lg">penthouse</button>
+    </div>
+  </div>
+  <!--row1-->
+  
+  <!--row2-->
+  <div class="row align-items-start gx-4">
+    <!--column1: Card-->
+    <div class="col-md-3 col-12 d-flex justify-content-center mb-3 mb-md-0">
+      <div class="card shadow" style="width:100%; max-width:17rem; min-height:370px;">
+          <div class="card-body d-flex justify-content-between mb-2">
+            <span class="text-secondary">Total flat space</span>
+            <span class="fw-bold">185m2</span>
+          </div>
+          <div class="card-body d-flex justify-content-between mb-2">
+            <span class="text-secondary">Floor number</span>
+            <span class="fw-bold">26th</span>
+          </div>
+          <div class="card-body d-flex justify-content-between mb-2">
+            <span class="text-secondary">Number of rooms</span>
+            <span class="fw-bold">4</span>
+          </div>
+          <div class="card-body d-flex justify-content-between mb-2">
+            <span class="text-secondary">Parking Available</span>
+            <span class="fw-bold">Yes</span>
+          </div>
+          <div class="card-body d-flex justify-content-between">
+            <span class="text-secondary">Payment Process</span>
+            <span>Bank</span>
+          </div>
+      </div>
+    </div>
+
+    <!--column2: Image-->
+    <div class="col-md-6 col-12 d-flex justify-content-center mb-3 mb-md-0">
+      <img src="./p-images/property-05.jpg" class="img-fluid" style="max-height:350px; object-fit:cover; width:100%;">
+    </div>
+
+    <!--column3: Extra Info-->
+    <div class="col-md-3 col-12 d-flex flex-column justify-content-start">
+      <p class="fs-small fw-bold">Extra Info About Property</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit incidunt reprehenderit beatae doloremque atque natus obcaecati ducimus placeat odio neque.</p>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam animi dolorem et deleniti ipsa? Nemo explicabo sit repellendus placeat soluta.</p>
+      <button class="btn btn-sm btn-dark rounded-pill d-flex align-items-center gap-2">
+        <span class="d-flex justify-content-center align-items-center" 
+              style="width:25px; height:25px; border-radius:50%; background-color:red;">
+          <i class="fa-solid fa-calendar text-light"></i>
+        </span>
+        Schedule a visit
+      </button>
+    </div>
+  </div>
+  <!--row2-->
+</div>
+<!--Best deal section-->
+
+<!--Properties Section-->
+<section class="properties">
+  <div class="container mb-5">
+    <!-- Row 1 -->
+    <div class="row justify-content-center align-items-center text-center py-4">
+      <div class="col-12">
+        <p class="text-danger text-uppercase small fw-bold my-1">|properties</p>
+        <h3 class="text-capitalize fw-bold my-1">We provide the best <br> Property you like</h3>
+      </div>
+    </div>
+
+    <!-- Row 2 -->
+    <div class="row g-4 my-2 mx-5 me-2">
+      <div class="col-sm-6 col-md-4">
+        <div class="card bg-light" style="max-width:350px; margin:auto;">
+            <img src="./p-images/property-01.jpg" class="card-img-top p-3" alt="...">
+            <div class="card-body d-flex flex-column">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                    <button class="badge text-light bg-success">Luxury Villa</button>
+                    <span class="fw-bold text-danger">$2.264.000</span>
+                </div>
+                <h6 class="fw-bold mb-3">18 New Street Miami, OR 97219</h6>
+                <div class="row text-secondary small mb-2">
+                    <div class="col-4">Bedrooms: <span class="text-dark fw-bold">8</span></div>
+                    <div class="col">Bathrooms: <span class="text-dark fw-bold">8</span></div>
+                </div>
+                <div class="row text-muted small mb-3">
+                    <div class="col-4">Area: <span class="text-dark fw-bold">545m²</span></div>
+                    <div class="col-3">Floor: <span class="text-dark fw-bold">3</span></div>
+                    <div class="col-5">Parking: <span class="text-dark fw-bold">6 spots</span></div>
+                </div>
+                <hr class="opacity-25">
+                <div class="mt-auto text-center">
+                    <a href="#" class="btn btn-sm btn-dark rounded-pill">schedule a visit</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!--property2-->
+    <div class="col-sm-6 col-md-4">
+        <div class="card bg-light" style="max-width:350px; margin:auto;">
+            <img src="./p-images/property-02.jpg" class="card-img-top p-3" alt="...">
+            <div class="card-body d-flex flex-column">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                    <button class="badge text-light bg-success">Luxury Villa</button>
+                    <span class="fw-bold text-danger">$1.180.000</span>
+                </div>
+                <h6 class="fw-bold mb-3">54 New Street Florida, OR 27001</h6>
+                <div class="row text-secondary small mb-2">
+                    <div class="col-4">Bedrooms: <span class="text-dark fw-bold">6</span></div>
+                    <div class="col">Bathrooms: <span class="text-dark fw-bold">5</span></div>
+                </div>
+                <div class="row text-muted small mb-3">
+                    <div class="col-4">Area: <span class="text-dark fw-bold">450m²</span></div>
+                    <div class="col-3">Floor: <span class="text-dark fw-bold">3</span></div>
+                    <div class="col-5">Parking: <span class="text-dark fw-bold">8 spots</span></div>
+                </div>
+                <hr class="opacity-25">
+                <div class="mt-auto text-center">
+                    <a href="#" class="btn btn-sm btn-dark rounded-pill">schedule a visit</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Property-3-->
+
+    <div class="col-sm-6 col-md-4">
+        <div class="card bg-light" style="max-width:350px; margin:auto;">
+            <img src="./p-images/property-03.jpg" class="card-img-top p-3" alt="...">
+            <div class="card-body d-flex flex-column">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                    <button class="badge text-light bg-success">Luxury Villa</button>
+                    <span class="fw-bold text-danger">$1.460.000</span>
+                </div>
+                <h6 class="fw-bold mb-3">26 Mid Street Portland, OR 36540</h6>
+                <div class="row text-secondary small mb-2">
+                    <div class="col-4">Bedrooms: <span class="text-dark fw-bold">5</span></div>
+                    <div class="col">Bathrooms: <span class="text-dark fw-bold">4</span></div>
+                </div>
+                <div class="row text-muted small mb-3">
+                    <div class="col-4">Area: <span class="text-dark fw-bold">225m²</span></div>
+                    <div class="col-3">Floor: <span class="text-dark fw-bold">3</span></div>
+                    <div class="col-5">Parking: <span class="text-dark fw-bold">10 spots</span></div>
+                </div>
+                <hr class="opacity-25">
+                <div class="mt-auto text-center">
+                    <a href="#" class="btn btn-sm btn-dark rounded-pill">schedule a visit</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Property-4-->
+
+    <div class="col-sm-6 col-md-4">
+        <div class="card bg-light" style="max-width:350px; margin:auto;">
+            <img src="./p-images/property-04.jpg" class="card-img-top p-3" alt="...">
+            <div class="card-body d-flex flex-column">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                    <button class="badge text-light bg-success">Apartment</button>
+                    <span class="fw-bold text-danger">$584.000</span>
+                </div>
+                <h6 class="fw-bold mb-3">12 Hope Street Portland, OR 12650</h6>
+                <div class="row text-secondary small mb-2">
+                    <div class="col-4">Bedrooms: <span class="text-dark fw-bold">4</span></div>
+                    <div class="col">Bathrooms: <span class="text-dark fw-bold">3</span></div>
+                </div>
+                <div class="row text-muted small mb-3">
+                    <div class="col-4">Area: <span class="text-dark fw-bold">125m²</span></div>
+                    <div class="col-3">Floor: <span class="text-dark fw-bold">25th</span></div>
+                    <div class="col-5">Parking: <span class="text-dark fw-bold">2 spots</span></div>
+                </div>
+                <hr class="opacity-25">
+                <div class="mt-auto text-center">
+                    <a href="#" class="btn btn-sm btn-dark rounded-pill">schedule a visit</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Property-5 -->
+    <div class="col-sm-6 col-md-4">
+        <div class="card bg-light" style="max-width:350px; margin:auto;">
+            <img src="./p-images/property-05.jpg" class="card-img-top p-3" alt="...">
+            <div class="card-body d-flex flex-column">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                    <button class="badge text-light bg-success">Penthouse</button>
+                    <span class="fw-bold text-danger">$925.600</span>
+                </div>
+                <h6 class="fw-bold mb-3">34 Hope Street Portland, OR 42680</h6>
+                <div class="row text-secondary small mb-2">
+                    <div class="col-4">Bedrooms: <span class="text-dark fw-bold">4</span></div>
+                    <div class="col">Bathrooms: <span class="text-dark fw-bold">4</span></div>
+                </div>
+                <div class="row text-muted small mb-3">
+                    <div class="col-4">Area: <span class="text-dark fw-bold">180m²</span></div>
+                    <div class="col-3">Floor: <span class="text-dark fw-bold">38th</span></div>
+                    <div class="col-5">Parking: <span class="text-dark fw-bold">2 cars</span></div>
+                </div>
+                <hr class="opacity-25">
+                <div class="mt-auto text-center">
+                    <a href="#" class="btn btn-sm btn-dark rounded-pill">schedule a visit</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--property-6-->
+
+    <div class="col-sm-6 col-md-4">
+        <div class="card bg-light" style="max-width:350px; margin:auto;">
+            <img src="./p-images/property-06.jpg" class="card-img-top p-3" alt="...">
+            <div class="card-body d-flex flex-column">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                    <button class="badge text-light bg-success">Modern Condo</button>
+                    <span class="fw-bold text-danger">$450.000</span>
+                </div>
+                <h6 class="fw-bold mb-3">22 Hope Street Portland, OR 16540</h6>
+                <div class="row text-secondary small mb-2">
+                    <div class="col-4">Bedrooms: <span class="text-dark fw-bold">3</span></div>
+                    <div class="col">Bathrooms: <span class="text-dark fw-bold">2</span></div>
+                </div>
+                <div class="row text-muted small mb-3">
+                    <div class="col-4">Area: <span class="text-dark fw-bold">165m²</span></div>
+                    <div class="col-3">Floor: <span class="text-dark fw-bold">26th</span></div>
+                    <div class="col-5">Parking: <span class="text-dark fw-bold">3 cars</span></div>
+                </div>
+                <hr class="opacity-25">
+                <div class="mt-auto text-center">
+                    <a href="#" class="btn btn-sm btn-dark rounded-pill">schedule a visit</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--Properties Section-->
+
+<!--contact Section-->
+<section class="contact-section position-relative py-5" style="overflow:hidden;">
+  <!-- Background Image -->
+  <img src="./p-images/contact-bg.jpg" 
+       class="position-absolute top-0 start-0 w-100 h-100 object-fit-cover" 
+       alt="Background" 
+       style="z-index:-2; filter: blur(2px);">
+
+  <!-- Overlay -->
+  <div class="position-absolute top-0 start-0 w-100 h-100 bg-white opacity-25" style="z-index:-1;"></div>
+
+  <div class="container position-relative">
+    <!-- Title -->
+    <div class="text-center mb-4">
+      <p class="text-danger fw-semibold small mb-1">| Contact Us</p>
+      <h2 class="fw-bold h3 text-dark">Get In Touch With<br>Our Agents</h2>
+    </div>
+
+    <!-- Map + Form Row -->
+    <div class="row g-4 justify-content-center align-items-stretch">
+      
+      <!-- Map Card -->
+      <div class="col-lg-6">
+        <div class="bg-white rounded-3 shadow overflow-hidden h-100" style="min-height: 280px;">
+           <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27787.409282845743!2d77.65419090919528!3d12.932317338893801!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae13752e34e92f%3A0xc2b234a66f986aae!2sBellandur%2C%20Bengaluru%2C%20Karnataka!5e1!3m2!1sen!2sin!4v1755343911874!5m2!1sen!2sin" 
+        width="100%" 
+        height="300" 
+        class="rounded-3"
+        style="border:0;" 
+        allowfullscreen 
+        loading="lazy" 
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+        </div>
+      </div>
+
+      <!-- Contact Form -->
+      <div class="col-lg-6">
+        <div class="bg-white rounded-3 shadow p-4 h-100 d-flex flex-column justify-content-center" style="min-height: 280px;">
+          <form>
+            <div class="mb-2">
+              <input type="text" class="form-control form-control-sm" placeholder="Full Name" required>
+            </div>
+            <div class="mb-2">
+              <input type="email" class="form-control form-control-sm" placeholder="Email Address" required>
+            </div>
+            <div class="mb-2">
+              <input type="text" class="form-control form-control-sm" placeholder="Subject">
+            </div>
+            <div class="mb-2">
+              <textarea class="form-control form-control-sm" rows="3" placeholder="Your Message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-dark btn-sm px-3">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact Info Cards -->
+  
+</body>
+</html>

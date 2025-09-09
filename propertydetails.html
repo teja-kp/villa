@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PropertyDetails</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <div class="bg-light">
+  <div class="container">
+    <div class="row align-items-center py-2 text-secondary">
+      <div class="col-md-4 text-center text-md-start">
+        <span><img src="./p-images/email-icon.png" style="width:18px" alt=""></span>
+        <span>info@company.com</span>
+      </div>
+      <div class="col-md-4 text-center">
+        <i class="fa-solid fa-map text-danger"></i>
+          <span>Sunny Isles Beach, FL 33160</span>
+      </div>
+      <div class="col-md-4 text-center text-md-end">
+        <i class="fa-brands fa-facebook me-3"></i>
+          <i class="fa-brands fa-instagram me-3"></i>
+          <i class="fa-brands fa-linkedin me-3"></i>
+          <i class="fa-brands fa-square-twitter me-3"></i>
+      </div>
+    </div>
+  </div>
+</div>
+<!--nav-->
+<nav class="navbar navbar-expand-lg bg-white p-3">
+  <div class="container">
+    <!-- Brand -->
+    <a class="navbar-brand fw-bold ps-5" href="#">VILLA</a>
+
+    <!-- Toggler -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Nav Items -->
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto me-3 gap-4">
+        <li class="nav-item"><a class="nav-link" href="./home.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="./Properties.html">Properties</a></li>
+        <li class="nav-item"><a class="nav-link" href="./PropertyDetails.html">Property Details</a></li>
+        <li class="nav-item"><a class="nav-link" href="./contactus.html">Contact Us</a></li>
+        <li class="nav-item">
+          <a href="#" class="btn btn-dark rounded-pill px-3"><i class="fa-solid fa-calendar text-danger"></i>Schedule a visit</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!--header-->
+<header>
+  <div class="position-relative">
+    <img src="./p-images/page-heading-bg.jpg" class="w-100" style="max-height: 300px; object-fit: cover;">
+    
+    <div class="position-absolute top-50 start-50 translate-middle text-center">
+      <p class="text-dark fw-semibold m-0 px-2 py-2 border border-dark bg-white d-inline-block text-uppercase small">
+        Home / Single property
+      </p>
+      <h3 class="text-white fs-2 mt-3 mb-0 text-uppercase fw-bold">
+        single property
+      </h3>
+    </div>
+  </div>
+</header>
+  <!--header-->
+<!--Property with details-->
+<div class="container my-5">
+  <div class="row g-4 align-items-stretch">
+    
+    <!-- Left Column (Image + Badge) -->
+    <div class="col-12 col-lg-7 d-flex flex-column">
+      <div class="flex-grow-1" style="max-height: 420px;"> <!-- increased -->
+        <img src="./p-images/property-01.jpg" 
+             class="img-fluid w-100 h-100" 
+             style="object-fit: cover;">
+      </div>
+      <div class="mt-3">
+        <button class="btn btn-sm btn-light border text-danger px-3">Appartment</button>
+      </div>
+      <p class="fw-bold fs-4">24 New Street Miami, OR 24560</p>
+    </div>
+
+    <!-- Right Column (Card aligned with Image) -->
+    <div class="col-12 col-lg-5 d-flex">
+      <div class="card shadow-sm border-0 w-100 h-100" style="max-height: 420px;"> <!-- increased -->
+        <div class="card-body p-4 d-flex flex-column justify-content-between h-100">
+
+          <!-- Row 1 -->
+          <div class="d-flex align-items-center py-3">
+            <img src="./p-images/info-icon-01.png" class="me-3" style="width: 40px;">
+            <div>
+              <h6 class="fw-bold mb-0">450 m²</h6>
+              <small class="text-muted">Total Flat Space</small>
+            </div>
+          </div>
+          <hr>
+
+          <!-- Row 2 -->
+          <div class="d-flex align-items-center py-3">
+            <img src="./p-images/info-icon-02.png" class="me-3" style="width: 40px;">
+            <div>
+              <h6 class="fw-bold mb-0">Contract</h6>
+              <small class="text-muted">Contract Ready</small>
+            </div>
+          </div>
+          <hr>
+
+          <!-- Row 3 -->
+          <div class="d-flex align-items-center py-3">
+            <img src="./p-images/info-icon-03.png" class="me-3" style="width: 40px;">
+            <div>
+              <h6 class="fw-bold mb-0">Payment</h6>
+              <small class="text-muted">Payment Process</small>
+            </div>
+          </div>
+          <hr>
+
+          <!-- Row 4 -->
+          <div class="d-flex align-items-center py-3">
+            <img src="./p-images/info-icon-04.png" class="me-3" style="width: 40px;">
+            <div>
+              <h6 class="fw-bold mb-0">Safety</h6>
+              <small class="text-muted">24/7 Under Control</small>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+<!--Property with details-->
+<!-- Text under image only -->
+<div class="container mt-0">
+  <div class="row">
+    <div class="col-12 col-lg-7">
+      <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta sed nulla, porro deleniti assumenda error animi ullam nam eum ducimus consequuntur perferendis temporibus hic eveniet quod, veritatis nemo quidem! Sint!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum dignissimos magnam vero omnis, dolore deleniti dolor doloremque corporis cumque explicabo exercitationem culpa aliquam non eligendi cupiditate vitae, fuga delectus iste.</p>
+      </div>
+      <div>
+        <div class="card p-2 bg-light border-0 rounded my-5 fw-semibold" style="width: 45rem;">
+          <P class="text-danger">Best Useful Links?</P>
+          <hr style="color:#ddd">
+          <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, error? Sequi illum delectus ut quos, in optio nemo iure iusto numquam perspiciatis sapiente quia commodi!</P>
+          <p>How does this work?</p>
+          <hr style="color:#ddd">
+          <p>Why is Villa the best</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+<!--Best deal section-->
+<div class="container-lg bg-light py-5 my-5">
+  <!--row1-->
+  <div class="row mb-5 align-items-center">
+    <div class="col-md-8 col-12 mb-3 mb-md-0">
+        <p class="fw-bold text-danger text-uppercase small">|Best deal</p>
+        <h3 class="fw-bold">Find Your Best Deal<br>Right Now!</h3>
+    </div>
+    <div class="col-md-4 col-12 d-flex flex-wrap gap-2 justify-content-md-end">
+        <button type="button" class="btn btn-danger btn-lg">Apartment</button>
+        <button type="button" class="btn btn-dark btn-lg">villahouse</button>
+        <button type="button" class="btn btn-dark btn-lg">penthouse</button>
+    </div>
+  </div>
+  <!--row1-->
+  
+  <!--row2-->
+  <div class="row align-items-start gx-4">
+
+</body>
+</html>
